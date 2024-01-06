@@ -7,6 +7,7 @@
     --lightgray-color: #434455;
     --white-color: #f4f4fd;
     --new-color: #434455;
+    --butone-color: #e7e9fc;
 }
 body {
     background-color: var(--mybackgroundcolor-background-color);
@@ -246,12 +247,16 @@ body {
     letter-spacing: 0.04em;
     color: var(--bluecolor-color);
     background-color: var(--white-color);
+    padding: 12px 24px;
+    border: 1px solid var(--butone-color);
+    border-radius: 4px;
  }
 
  .butone:hover, .butone:focus {
     color: var(--mybackgroundcolor-background-color);
     background-color: var(--darkblue-color);
     cursor: pointer;  
+    border: 1px solid transparent;
  }
 
  .banktitle {
@@ -260,6 +265,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--gray-color);
+    margin-bottom: 8px;
  }
 
  .paraclass {
@@ -355,4 +361,32 @@ body {
  .portfolionav {
     display: flex;
     align-items: center;
+ }
+ .banana {
+    padding-top: 96px;
+    padding-bottom: 120px;
+ }
+
+ .listone {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+ }
+
+ .listtwo {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+ }
+
+ .kiwi {
+    width: calc((100%-48px)/3);
+ }
+
+ .kiwidiv {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
  }
