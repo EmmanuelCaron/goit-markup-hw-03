@@ -157,10 +157,12 @@ body {
 
 .feet {
     background-color: var(--gray-color);
+    padding: 100px 0;
 }
 
 .whitecolor {
     color: var(--white-color);
+    max-width: 264px;
 }
 
 .feetflow {
@@ -178,7 +180,7 @@ body {
 
 }
 
-.logo {
+.logoi {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -186,6 +188,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--bluecolor-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .link {
 
