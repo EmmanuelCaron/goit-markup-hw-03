@@ -72,6 +72,7 @@ body {
 
 .unos {
     background-color: var(--gray-color);
+    padding: 188px 0;
 }
 
 .unost {
@@ -80,6 +81,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--mybackgroundcolor-background-color);
+    max-width: 496px;
 }
 
 .unosb {
@@ -91,6 +93,11 @@ body {
     letter-spacing: 0.04em;
     color: var(--mybackgroundcolor-background-color);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .unosb:hover {
