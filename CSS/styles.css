@@ -132,6 +132,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--gray-color);
+    margin-bottom: 72px;
 }
 
 .quattro {
@@ -318,5 +319,14 @@ body {
   }
   
   .forstrategy {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
   }
+
+  .turmeric {
+    padding-bottom: 120px;
+  }
+
+  .macmac {
+    width: calc((100% - 48px) / 3);
+  }
+  
