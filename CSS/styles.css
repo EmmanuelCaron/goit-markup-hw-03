@@ -22,6 +22,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--bluecolor-color);
+    margin-right: 76px;
 
 }
 .link {
@@ -34,6 +35,8 @@ body {
 
 .list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .indexl {
@@ -42,6 +45,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--gray-color);
+    padding: 24px 0;
 }
 
 .link {
@@ -259,3 +263,25 @@ body {
     color: var(--bluecolor-color);
  }
 
+ image {
+    display: block;
+ }
+
+ .headerclass {
+    border-bottom: 1px solid #e7e9fc;
+ }
+
+ .divclass {
+    display: flex;
+ }
+
+ .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+
+ .navclass {
+    display: flex;
+    align-items: center;
+ }
